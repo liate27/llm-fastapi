@@ -1,0 +1,45 @@
+    1  pwd
+    2  ls -al
+    3  vi dum1
+    4  dir
+    5  ls -al
+    6  mkdir backend
+    7  cd backend
+    8  ls -al
+    9  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/backend/requirements.txt
+   10  ls -al
+   11  vim requirements.txt
+   12  pip install -r requirements.txt
+   13  ls -al
+   14  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/backend/main.py
+   15  vim main.py
+   16  ls -al
+   17  more requirements.txt
+   18  pip install -r requirements.txt
+   19  curl -X 'GET'   'https://8000-liate27-llmfastapi-zdp8tthheo0.ws-us107.gitpod.io/'   -H 'accept: application/json'
+   20  curl -X 'GET'   'https://8000-liate27-llmfastapi-zdp8tthheo0.ws-us107.gitpod.io/'   -H 'accept: application/json'
+   21  cd backend
+   22  curl -X 'GET'   'https://8000-liate27-llmfastapi-zdp8tthheo0.ws-us107.gitpod.io/'   -H 'accept: application/json'
+   23  ls -al
+   24  curl -X 'GET'   'https://8000-liate27-llmfastapi-zdp8tthheo0.ws-us107.gitpod.io/'   -H 'accept: application/json'
+   25  git add .
+   26  git commit -m "This is my first commit with api"
+   27  git push
+   28  cd ..
+   29  git add .
+   30  git commit -m "This is my first commit with api"
+   31  git push
+   32  dir
+   33  ls -al
+   34  history > list_of_commands.txt
+   35  vim list_of_commands.txt
+   36  ls -al
+   37  git push
+   38  ls
+   39  del list_of_commands.txt
+   40  delete list_of_commands.txt
+   41  remove  list_of_commands.txt
+   42  del list_of_commands.txt
+   43  rm list_of_commands.txt
+   44  cd backend
+   45  history > list_of_commands.txt
