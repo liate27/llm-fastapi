@@ -68,3 +68,6 @@
    68  ls -al
    69  cd frontend
    70  history > 20240210history.txt
+git add .
+git commit -m “Created a chatbot”
+git push
