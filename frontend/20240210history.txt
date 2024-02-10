@@ -1,0 +1,70 @@
+    1  ls
+    2  cd backend
+    3  ls -al
+    4  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/backend/Dockerfile
+    5  docker build -t llm .
+    6  docker run -p 8000:8000 llm
+    7  cd ..
+    8  npx create-react-app frontend
+    9  cd frontend
+   10  dir
+   11  ls -al
+   12  npm start
+   13  cd $GITPOD_REPO_ROOT/frontend/src
+   14  ls -al
+   15  rm -f App.js
+   16  rm -f App.css
+   17  rm -f environment.js
+   18  rm -f  index.js
+   19  ls -al
+   20  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/App.css
+   21  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/App.js
+   22  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/environment.js
+   23  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/frontend/src/index.js
+   24  cd $GITPOD_REPO_ROOT
+   25  ls -al
+   26  cd backend
+   27  ls -al
+   28  more requirements.txt
+   29  cd ..
+   30  cd frontend
+   31  ls -al
+   32  cd ..
+   33  ls -al
+   34  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/update_url.sh
+   35  chmod +x update_url.sh
+   36  ls -al
+   37  ./update_url.sh
+   38  cd $GITPOD_REPO_ROOT/frontend
+   39  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/frontend/Dockerfile
+   40  ls -al
+   41  more Dockerfile
+   42  ls -al
+   43  docker build -t react-frontend .
+   44  docker run -p 3000:3000 react-frontend
+   45  cd $GITPOD_REPO_ROOT
+   46  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/docker-compose.yml
+   47  docker compose build
+   48  docker compose up
+   49  ls -al
+   50  cd frontend
+   51  ls -al
+   52  cd src
+   53  ls -al
+   54  cd ..
+   55  ls -al
+   56  docker compose build
+   57  ls -al
+   58  docker compose up
+   59  git add
+   60  git add .
+   61  git commit -m “Created a chatbot”
+   62  dir
+   63  ls -al
+   64  cd backend
+   65  ls -al
+   66  more list_of_commands.txt
+   67  cd ..
+   68  ls -al
+   69  cd frontend
+   70  history > 20240210history.txt
